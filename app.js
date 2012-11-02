@@ -103,7 +103,7 @@ function ensureAuthenticated(req, res, next) {
  ROUTES
  ************************/
 app.get('/', routes.index)
-
+app.get('/issues', routes.issues)
 
 
 /************************
@@ -120,6 +120,7 @@ app.namespace("/bugs", BugService(app))
 app.namespace("/ideas", IdeaService(app))
 app.namespace("/news", NewsService(app))
 app.namespace("/questions", QuestionService(app))
+
 
 
 
