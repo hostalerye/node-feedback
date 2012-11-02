@@ -13,6 +13,5 @@ exports.config = {
             user        : "",
             password    : ""
     },
-    authType        : "github",
     usersCollection : "users"
 }
