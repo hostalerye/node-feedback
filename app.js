@@ -33,6 +33,7 @@ app.configure('production', function(){
 // Routes
 
 app.get('/', routes.index);
+app.get('/issues', routes.issues);
 
 app.listen(3000);
 console.log("Express server listening on port 3000");
