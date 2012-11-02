@@ -10,3 +10,7 @@ exports.index = function(req, res){
 exports.issues = function(req, res){
   res.render('issues', { title: 'Express issues' })
 };
+
+exports.issue = function(req, res){
+  res.render('issue', { title: 'Issue title' })
+};

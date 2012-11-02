@@ -106,6 +106,7 @@ function ensureAuthenticated(req, res, next) {
  ************************/
 app.get('/', routes.index)
 app.get('/issues', routes.issues)
+app.get('/issue', routes.issue)
 
 
 /************************
