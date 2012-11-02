@@ -5,13 +5,13 @@
 exports.config = {
     appName         : "node-feedback",
     port            : 3000,
-    langauge        : "eng",
+    language        : "eng",
     database        : {
-            name        : "node-feedback",
-            host        : "alex.mongohq.com",
-            port        : 10018,
-            user        : "toto",
-            password    : "toto"
+            name        : "",
+            host        : "",
+            port        : 1000,
+            user        : "",
+            password    : ""
     },
     authType        : "github",
     usersCollection : "users"

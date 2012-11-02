@@ -1,7 +1,13 @@
-/**
- * Created with JetBrains WebStorm.
- * User: malekith
- * Date: 02/11/12
- * Time: 15:26
- * To change this template use File | Settings | File Templates.
- */
+exports.config = {
+    appName         : "node-feedback",
+    port            : 3000,
+    language        : "eng",
+    database        : {
+            name        : "node-feedback",
+            host        : "alex.mongohq.com",
+            port        : 10018,
+            user        : "toto",
+            password    : "toto"
+    },
+    usersCollection : "users"
+}
