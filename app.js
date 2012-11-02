@@ -4,9 +4,9 @@
  */
 
 var express = require('express')
-  , routes = require('node-feedback');
+  , routes = require('./routes');
 
-var app = module.exports = express.createServer();
+var app = module.exports = express();
 
 // Configuration
 
@@ -35,4 +35,4 @@ app.configure('production', function(){
 app.get('/', routes.index);
 
 app.listen(3000);
-console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
+console.log("Express server listening on port 3000");

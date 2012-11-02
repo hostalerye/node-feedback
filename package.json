@@ -12,7 +12,7 @@
         "stylus"                    : ">= 0.0.1",
         "jade"                      : ">= 0.0.1"
     },
-    "main"                          : "./server.js",
+    "main"                          : "./app.js",
     "devDependencies": {
     },
     "scripts": {
